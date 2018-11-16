@@ -1,0 +1,2 @@
+<view class="intro">{{init_date}}</view>
+<view class="intro">{{can_play_date || '等待onCanPlay回调中'}}</view>
