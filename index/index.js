@@ -16,7 +16,7 @@ Page({
       init_date: 'Time of initialization -> ' + this.getCurrentDate(),
     });
 
-    this.audio = wx.createInnerAudioContext();
+    this.audio = wx.getBackgroundAudioManager();
     this.audio.title = '此时此刻'
     this.audio.epname = '此时此刻'
     this.audio.singer = '许巍'
